@@ -181,55 +181,85 @@
 
 
 <!-- ===== Services ===== -->
-<section id="services" class="min-h-screen flex flex-col justify-center items-center text-center px-4 reveal mb-20">
+<section id="services" class="min-h-screen flex flex-col justify-center items-center text-center px-4 md:px-6 mb-20">
 
-  <h2 class="text-4xl md:text-5xl font-bold text-center main-color mb-16 tracking-wide">
-    What I Do
-  </h2>
+    <h2 class="text-4xl md:text-5xl font-bold text-center main-color mb-16 tracking-wide">
+      What I Do
+    </h2>
 
-  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+
+  <!-- Services Grid -->
+  <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-10">
 
     <!-- Service Card 1 -->
-    <div class="group p-10 rounded-3xl service-card shadow-xl hover:-translate-y-2 hover:scale-105 transition-all duration-300">
-      <div class="flex flex-col items-center text-center space-y-5">
-        <div class="p-6 rounded-full service-icon group-hover:bg-gradient-to-tr from-main-color to-indigo-500 text-white text-4xl transition-all duration-300">
+    <div class="group p-8 sm:p-10 rounded-3xl 
+                dark:bg-sky-800/30 backdrop-blur-xl 
+                border border-gray-200 dark:border-gray-700/30 
+                shadow-xl dark:shadow-black/40
+                hover:border-main-color hover:shadow-main-color/30 hover:shadow-2xl hover:-translate-y-2 
+                transition-all duration-300">
+      <div class="flex flex-col items-center text-center space-y-5 sm:space-y-6">
+        <!-- Icon -->
+        <div class="w-20 h-20 flex items-center justify-center rounded-2xl bg-gradient-to-br from-main-color to-indigo-500 
+                    main-color text-4xl shadow-lg group-hover:scale-110 transition-all duration-300">
           <i class="fa-solid fa-code"></i>
         </div>
-        <h3 class="text-2xl font-semibold">Web Development</h3>
-        <p class="leading-relaxed">
-          Building fast, responsive, high-quality websites using modern technologies.
+        <!-- Title -->
+        <h3 class="text-xl md:text-2xl font-semibold main-color dark:main-color">Web Development</h3>
+        <!-- Description -->
+        <p class="leading-relaxed text-gray-900 dark:text-gray-500 text-sm md:text-base">
+          Building fast, responsive, and high-quality websites with modern technologies.
         </p>
       </div>
     </div>
 
     <!-- Service Card 2 -->
-    <div class="group p-10 rounded-3xl service-card shadow-xl hover:-translate-y-2 hover:scale-105 transition-all duration-300">
-      <div class="flex flex-col items-center text-center space-y-5">
-        <div class="p-6 rounded-full service-icon group-hover:bg-gradient-to-tr from-main-color to-pink-500 text-white text-4xl transition-all duration-300">
+    <div class="group p-8 sm:p-10 rounded-3xl 
+                dark:bg-sky-800/30 backdrop-blur-xl 
+                border border-gray-200 dark:border-gray-700/30 
+                shadow-xl dark:shadow-black/40
+                hover:border-main-color hover:shadow-main-color/30 hover:shadow-2xl hover:-translate-y-2 
+                transition-all duration-300">
+      <div class="flex flex-col items-center text-center space-y-5 sm:space-y-6">
+        <!-- Icon -->
+        <div class="w-20 h-20 flex items-center justify-center rounded-2xl bg-gradient-to-br from-main-color to-pink-500 
+                    main-color text-4xl shadow-lg group-hover:scale-110 transition-all duration-300">
           <i class="fa-solid fa-palette"></i>
         </div>
-        <h3 class="text-2xl font-semibold">UI/UX Design</h3>
-        <p class="leading-relaxed">
+        <!-- Title -->
+        <h3 class="text-xl md:text-2xl font-semibold main-color dark:main-color">UI/UX Design</h3>
+        <!-- Description -->
+        <p class="leading-relaxed text-gray-900 dark:text-gray-500 text-sm md:text-base">
           Crafting beautiful, intuitive, and user-centered digital experiences.
         </p>
       </div>
     </div>
 
     <!-- Service Card 3 -->
-    <div class="group p-10 rounded-3xl service-card shadow-xl hover:-translate-y-2 hover:scale-105 transition-all duration-300">
-      <div class="flex flex-col items-center text-center space-y-5">
-        <div class="p-6 rounded-full service-icon group-hover:bg-gradient-to-tr from-main-color to-green-400 text-white text-4xl transition-all duration-300">
+    <div class="group p-8 sm:p-10 rounded-3xl 
+                dark:bg-sky-800/30 backdrop-blur-xl 
+                border border-gray-200 dark:border-gray-700/30 
+                shadow-xl dark:shadow-black/40
+                hover:border-main-color hover:shadow-main-color/30 hover:shadow-2xl hover:-translate-y-2 
+                transition-all duration-300">
+      <div class="flex flex-col items-center text-center space-y-5 sm:space-y-6">
+        <!-- Icon -->
+        <div class="w-20 h-20 flex items-center justify-center rounded-2xl bg-gradient-to-br from-main-color to-green-400 
+                    main-color text-4xl shadow-lg group-hover:scale-110 transition-all duration-300">
           <i class="fa-solid fa-brain"></i>
         </div>
-        <h3 class="text-2xl font-semibold">SaaS & AI Integration</h3>
-        <p class="leading-relaxed">
-          Smart AI tools to automate workflows and improve productivity.
+        <!-- Title -->
+        <h3 class="text-xl md:text-2xl font-semibold main-color dark:main-color">SaaS & AI Integration</h3>
+        <!-- Description -->
+        <p class="leading-relaxed text-gray-900 dark:text-gray-500 text-sm md:text-base">
+          Smart AI tools that automate workflows and boost productivity.
         </p>
       </div>
     </div>
 
-  </div>
+  </div> 
 </section>
+
 
 <!-- ===== Projects ===== -->
 <section id="projects" class="min-h-screen flex flex-col justify-center items-center text-center px-4 reveal">
@@ -256,7 +286,7 @@
 
 
       <!-- E-Commerce Platform -->
-    <div class="project-card group border border-transparent rounded-3xl overflow-hidden shadow-xl relative" data-category="web">
+    <div class="project-card group border border-transparent rounded-3xl overflow-hidden shadow-xl relative" data-category="laravel">
       <div class="h-52 bg-gradient-to-br from-main-color/20 to-pink-500/20 relative">
         <!-- Image always visible -->
         <img src="4miniProjehct.png" alt="Coming soon" class="w-full h-full object-cover rounded-t-3xl" />
